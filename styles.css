@@ -1,0 +1,311 @@
+.header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  background-color: #ffe6e6;
+  scroll-behavior: smooth;
+}
+
+.primary-navigation-menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  margin-right: 20px;
+}
+.menu-cta {
+  text-decoration: none;
+}
+
+.menu-cta:hover,
+.menu-cta:active,
+.menu-cta:focus {
+  text-decoration: underline;
+}
+
+.big-buffelo {
+  margin-left: 3.43%;
+  margin-right: 3.43%;
+}
+
+.main-banner-img {
+  padding-top: 123px;
+  padding-bottom: 250px;
+  background-image: url(https://raw.githubusercontent.com/DashFlashwork/assets/main/lower-blood-pressure-with-3-acupressure-points.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+
+}
+p{
+  font-size: 20px;
+}
+
+.main-written {
+  background-color: #00000048;
+  color: #ffffff;;
+  margin-left: 10%;
+  text-shadow: 0 0 10px #000000, 0 0 5px #000000;
+  border-radius: 10%;
+  padding: 10px 30px 30px 30px ;
+  max-width: max-content;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.wrapper {
+  
+  margin: 25px 0px 0px 0px ;
+  display: flex;
+}
+
+.inside-wrapper {
+  text-align: center;
+  border: 1px solid #8c7d80;
+  border-radius: 10px;
+  padding-top: 80px;
+  padding-left: 2.08%;
+  padding-right: 2.08%;
+  width: 33%;
+}
+
+.normal-wrapper {
+  text-align: center;
+}
+
+.main-content-holder {
+  width: 100%;
+  align-items: center;
+}
+
+.know-more-about-us {
+  max-width: 100%;
+  background-color: rgb(252, 251, 252);
+  border-radius: 10px;
+  box-shadow: #000000;
+}
+
+.inside-know-more-about-us {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.poiuymnb {
+  width: 90px;
+}
+
+.colour-therapy {
+  text-align: center;
+  padding-right: 5%;
+}
+
+.acupressure-therapy {
+  text-align: center;
+  padding-right: 5%;
+}
+
+.magnet-therapy {
+  text-align: center;
+}
+
+.map {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+
+.map-iframe {
+  width: 100%;
+  border-radius: 5%;
+  padding-left: 5.25%;
+}
+.forms{
+  width : 100%;
+  height : 100vh;
+  border-radius: 5%; 
+  max-width:100%; 
+  max-height:100vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+footer {
+  width: 100%;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.footer-main {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-to-top {
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  z-index: 900;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  align-content: center;
+  text-align: center;
+  position:fixed;
+  right: 30px;
+  bottom: 30px;
+  scroll-behavior: smooth;
+}
+
+.back-to-top:hover,
+.back-to-top:active,
+.back-to-top:focus {
+  background-color: #fccdcc;
+  transition: 2s;
+}
+
+
+.mobile-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cta-mobile-nav,
+.close-mobile-nav {
+  display: none;
+}
+
+.mobile-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.mobile-nav a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.mobile-nav a:hover,
+.mobile-nav a:focus {
+  background-color: #4b4646;
+}
+
+.mobile-nav .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.open-nav {
+  display: none;
+}
+.nfooter{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#feccccab;
+}
+@media screen and (max-height: 450px) {
+  .mobile-nav a {
+    font-size: 20px
+  }
+
+  .mobile-nav .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .inside-wrapper{
+    width: 100%;
+  }
+
+  .map {
+    flex-direction: column;
+  }
+
+  .normal-wrapper {
+    text-align: center;
+  }
+
+
+  .map-iframe {
+    padding-left: 0%;
+    height: 500px;
+  }
+
+  .main-content-holder {
+    margin: 2%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .primary-navigation-menu {
+    display: none;
+  }
+
+  .cta-mobile-nav {
+    display: block;
+  }
+
+  .open-nav {
+    display: block;
+  }
+
+  .main-content-holder {
+    margin: 2%;
+  }
+  .main-written{
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .inside-know-more-about-us {
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer-inner{
+    flex-direction: column;
+  }
+}
