@@ -172,15 +172,14 @@ footer {
   cursor: pointer;
   align-content: center;
   text-align: center;
-  position:fixed;
+  position: fixed;
   right: 30px;
   bottom: 30px;
-  scroll-behavior: smooth;
 }
 
-.back-to-top:hover,
-.back-to-top:active,
-.back-to-top:focus {
+.back-to-top: hover,
+.back-to-top: active,
+.back-to-top: focus {
   background-color: #fccdcc;
   transition: 2s;
 }
