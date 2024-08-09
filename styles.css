@@ -69,7 +69,6 @@ h2 {
 }
 
 .wrapper {
-  
   margin: 25px 0px 0px 0px ;
   display: flex;
 }
@@ -253,9 +252,6 @@ footer {
 }
 
 @media screen and (max-width: 1340px) {
-  .wrapper {
-    flex-direction: column;
-  }
   .inside-wrapper{
     width: 100%;
   }
@@ -307,6 +303,9 @@ footer {
     padding-right: 5%;
   }
   .footer-inner{
+    flex-direction: column;
+  }
+  .wrapper {
     flex-direction: column;
   }
 }
