@@ -255,11 +255,6 @@ footer {
   .inside-wrapper{
     width: 100%;
   }
-
-  .map {
-    flex-direction: column;
-  }
-
   .normal-wrapper {
     text-align: center;
   }
@@ -306,6 +301,9 @@ footer {
     flex-direction: column;
   }
   .wrapper {
+    flex-direction: column;
+  }
+  .map {
     flex-direction: column;
   }
 }
